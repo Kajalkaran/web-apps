@@ -1,0 +1,17 @@
+<h1>Dice</h1>
+
+
+<%die1 = rand(1..6)%>
+<p>Die1: <%= die1%></p>
+
+<%die2 = rand(1..6)%>
+<p>Die2: <%= die2%></p>
+<p> <img src = "/images/dice/<%=die1%>.svg" alt =""><img src = "/images/dice/<%=die2%>.svg" alt ="">
+
+</p>
+<%#ruby comment%>
+<!--HTML comment-->
+
+<%total = die1 + die2%>
+<p>"The total is:<%= total%>
+<p><a href = "/dice"> Roll Again!</a><p>
